@@ -59,7 +59,7 @@ public class Player : MonoBehaviour
         {
             isJumping = false;
             anim.SetBool("isJumping", false);
-            walkingSound.Play();
+            walkingSound.UnPause();
         }
 
         if (collision.transform.tag == "Hurdle")

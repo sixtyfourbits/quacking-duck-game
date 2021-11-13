@@ -12,58 +12,70 @@
 
 
 
-// 0x00000001 System.Void BlinkAnim::Update()
+// 0x00000001 System.Void AdmobBanner::Start()
+extern void AdmobBanner_Start_m348A201E7ABC2CD2C462161D4BCB99035C4E8DBE (void);
+// 0x00000002 System.Void AdmobBanner::Update()
+extern void AdmobBanner_Update_m041D13825499BBAACF3D68288D18CD513EC366C3 (void);
+// 0x00000003 System.Void AdmobBanner::InitAd()
+extern void AdmobBanner_InitAd_m73BBE7025F3C32188CC2E4152B2E55A4F3F93543 (void);
+// 0x00000004 System.Void AdmobBanner::.ctor()
+extern void AdmobBanner__ctor_m6BC7B059847753C206027FD8575FA501B1E22DEF (void);
+// 0x00000005 System.Void BlinkAnim::Update()
 extern void BlinkAnim_Update_mB73D8BA9F08208EF33584239F84947C4F7CCD67C (void);
-// 0x00000002 System.Void BlinkAnim::.ctor()
+// 0x00000006 System.Void BlinkAnim::.ctor()
 extern void BlinkAnim__ctor_m908A3E91146D598689A5069BDA08326B7A7FABBB (void);
-// 0x00000003 System.Void CameraManager::Start()
+// 0x00000007 System.Void CameraManager::Start()
 extern void CameraManager_Start_m3A8F66B836B9A9BC419B62EF88451549BBC9CCD0 (void);
-// 0x00000004 System.Void CameraManager::Update()
+// 0x00000008 System.Void CameraManager::Update()
 extern void CameraManager_Update_m911D2029A80BF20148CD94D496452F232343FF60 (void);
-// 0x00000005 System.Void CameraManager::.ctor()
+// 0x00000009 System.Void CameraManager::.ctor()
 extern void CameraManager__ctor_m932EDBCBAE89115380AA929ED5BC9823B9371185 (void);
-// 0x00000006 System.Void LoadSceneManager::Start()
+// 0x0000000A System.Void LoadSceneManager::Start()
 extern void LoadSceneManager_Start_mF494B479CD5C3461FE6BCDF0F4D7452C244DE39D (void);
-// 0x00000007 System.Void LoadSceneManager::Update()
+// 0x0000000B System.Void LoadSceneManager::Update()
 extern void LoadSceneManager_Update_mB0E77D7DBAF08199523F4C7E47CDE60292BCC77B (void);
-// 0x00000008 System.Void LoadSceneManager::.ctor()
+// 0x0000000C System.Void LoadSceneManager::.ctor()
 extern void LoadSceneManager__ctor_m875092AABE90D3147B6550E865F8490211B1E329 (void);
-// 0x00000009 System.Void Player::Start()
+// 0x0000000D System.Void Player::Start()
 extern void Player_Start_mBD692B64AAC791B93A589E7D3596F36787EAF021 (void);
-// 0x0000000A System.Void Player::Update()
+// 0x0000000E System.Void Player::Update()
 extern void Player_Update_mBA04F1D6FE3C18037EA95DFAEEAA9977BFD49CD3 (void);
-// 0x0000000B System.Void Player::MovePlayer()
+// 0x0000000F System.Void Player::MovePlayer()
 extern void Player_MovePlayer_mBE1240CDB20CA9B43956A54F7164BC24F755FF68 (void);
-// 0x0000000C System.Void Player::OnCollisionEnter2D(UnityEngine.Collision2D)
+// 0x00000010 System.Void Player::OnCollisionEnter2D(UnityEngine.Collision2D)
 extern void Player_OnCollisionEnter2D_m0448BB6F02AAB4967D3AB976DA22A24ACD8E7F90 (void);
-// 0x0000000D System.Void Player::OnCollisionExit2D(UnityEngine.Collision2D)
+// 0x00000011 System.Void Player::OnCollisionExit2D(UnityEngine.Collision2D)
 extern void Player_OnCollisionExit2D_mF2E5300C9E75724B39C03438EAA1024713F63A99 (void);
-// 0x0000000E System.Void Player::.ctor()
+// 0x00000012 System.Void Player::.ctor()
 extern void Player__ctor_mDE8EB5B351975D4E7E24DE341B8B49B8A29CC2B7 (void);
-// 0x0000000F System.Void Score::Start()
+// 0x00000013 System.Void Score::Start()
 extern void Score_Start_m65B0DAC30D1A9E246D4CF14672D8138B53EDA564 (void);
-// 0x00000010 System.Void Score::Update()
+// 0x00000014 System.Void Score::Update()
 extern void Score_Update_mB696B161F91F1AE220BCD4F47028DE039D9697D2 (void);
-// 0x00000011 System.Void Score::.ctor()
+// 0x00000015 System.Void Score::.ctor()
 extern void Score__ctor_mEE9186D20D9B28A735262B29AB6E8D9FF1380FB6 (void);
-// 0x00000012 System.Void SpikeController::Start()
+// 0x00000016 System.Void SpikeController::Start()
 extern void SpikeController_Start_m5C8F2D44C0814D0E9175B7E3B32F0B51257C2139 (void);
-// 0x00000013 System.Void SpikeController::Update()
+// 0x00000017 System.Void SpikeController::Update()
 extern void SpikeController_Update_m16FA14B230D1033D0C377C4BC7CBFDD18C898DBC (void);
-// 0x00000014 System.Void SpikeController::OnTriggerEnter2D(UnityEngine.Collider2D)
+// 0x00000018 System.Void SpikeController::OnTriggerEnter2D(UnityEngine.Collider2D)
 extern void SpikeController_OnTriggerEnter2D_m6769D4D24FC61EF1E095E560F3240B5002C9575F (void);
-// 0x00000015 System.Void SpikeController::.ctor()
+// 0x00000019 System.Void SpikeController::.ctor()
 extern void SpikeController__ctor_mBB64FE5B499197E7772F33D8CB08E3A452FB0BD9 (void);
-// 0x00000016 System.Void UIManager::Start()
+// 0x0000001A System.Void UIManager::Start()
 extern void UIManager_Start_mAA4B371DC406146E84A9D8803B9C861939B2E04E (void);
-// 0x00000017 System.Void UIManager::Update()
+// 0x0000001B System.Void UIManager::Update()
 extern void UIManager_Update_m8A7C5DF1B797CFD6937FD6961AB9CC7B1A90D385 (void);
-// 0x00000018 System.Void UIManager::StartButton()
+// 0x0000001C System.Void UIManager::StartButton()
 extern void UIManager_StartButton_m24EAC402CA0FF36E69C3F1BE0CC7DE36A048A3B1 (void);
-// 0x00000019 System.Void UIManager::.ctor()
+// 0x0000001D System.Void UIManager::.ctor()
 extern void UIManager__ctor_mDADE1D724D40AF63AE78D51FC1CF1FE4784B4D4B (void);
-static Il2CppMethodPointer s_methodPointers[25] = 
+static Il2CppMethodPointer s_methodPointers[29] = 
 {
+	AdmobBanner_Start_m348A201E7ABC2CD2C462161D4BCB99035C4E8DBE,
+	AdmobBanner_Update_m041D13825499BBAACF3D68288D18CD513EC366C3,
+	AdmobBanner_InitAd_m73BBE7025F3C32188CC2E4152B2E55A4F3F93543,
+	AdmobBanner__ctor_m6BC7B059847753C206027FD8575FA501B1E22DEF,
 	BlinkAnim_Update_mB73D8BA9F08208EF33584239F84947C4F7CCD67C,
 	BlinkAnim__ctor_m908A3E91146D598689A5069BDA08326B7A7FABBB,
 	CameraManager_Start_m3A8F66B836B9A9BC419B62EF88451549BBC9CCD0,
@@ -90,40 +102,44 @@ static Il2CppMethodPointer s_methodPointers[25] =
 	UIManager_StartButton_m24EAC402CA0FF36E69C3F1BE0CC7DE36A048A3B1,
 	UIManager__ctor_mDADE1D724D40AF63AE78D51FC1CF1FE4784B4D4B,
 };
-static const int32_t s_InvokerIndices[25] = 
+static const int32_t s_InvokerIndices[29] = 
 {
-	1380,
-	1380,
-	1380,
-	1380,
-	1380,
-	1380,
-	1380,
-	1380,
-	1380,
-	1380,
-	1380,
-	1140,
-	1140,
-	1380,
-	1380,
-	1380,
-	1380,
-	1380,
-	1380,
-	1140,
-	1380,
-	1380,
-	1380,
-	1380,
-	1380,
+	1390,
+	1390,
+	1390,
+	1390,
+	1390,
+	1390,
+	1390,
+	1390,
+	1390,
+	1390,
+	1390,
+	1390,
+	1390,
+	1390,
+	1390,
+	1147,
+	1147,
+	1390,
+	1390,
+	1390,
+	1390,
+	1390,
+	1390,
+	1147,
+	1390,
+	1390,
+	1390,
+	1390,
+	1390,
 };
 extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	25,
+	29,
 	s_methodPointers,
 	0,
 	NULL,

@@ -23,6 +23,9 @@
       "Inputs": [
         "C:/Users/Jaehyung/Unity/quacking duck/Temp/StagingArea/assets/bin/Data/Managed",
         "C:/Users/Jaehyung/Unity/quacking duck/Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp.dll",
+        "C:/Users/Jaehyung/Unity/quacking duck/Temp/StagingArea/assets/bin/Data/Managed/GoogleMobileAds.Android.dll",
+        "C:/Users/Jaehyung/Unity/quacking duck/Temp/StagingArea/assets/bin/Data/Managed/GoogleMobileAds.Common.dll",
+        "C:/Users/Jaehyung/Unity/quacking duck/Temp/StagingArea/assets/bin/Data/Managed/GoogleMobileAds.Core.dll",
         "C:/Users/Jaehyung/Unity/quacking duck/Temp/StagingArea/assets/bin/Data/Managed/Mono.Security.dll",
         "C:/Users/Jaehyung/Unity/quacking duck/Temp/StagingArea/assets/bin/Data/Managed/mscorlib.dll",
         "C:/Users/Jaehyung/Unity/quacking duck/Temp/StagingArea/assets/bin/Data/Managed/System.Configuration.dll",

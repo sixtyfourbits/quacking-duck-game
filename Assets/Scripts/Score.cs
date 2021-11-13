@@ -17,7 +17,7 @@ public class Score : MonoBehaviour
 
     void Update()
     {
-        countScore += 0.01f;
+        countScore += 0.05f;
 
         if (countScore >= 1.0f)
         {
